@@ -8,6 +8,7 @@ function takeANumber(line, name){
 function nowServing(line){
   let i = 0
   while (line > i ){
-  
+  i +=1
+  return (`Currently serving ${line}.`)
   }
 }
