@@ -18,9 +18,10 @@ function takeANumber(line, name){
 function currentLine(line){
   while (true) {
     if (line.length === 0) {
-    return "The line is currently empty."
-
-";
+    return "The line is currently empty.";
+    else 
+    return 
+    }
   }
 }
 
