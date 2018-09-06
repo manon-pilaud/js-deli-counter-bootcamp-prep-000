@@ -12,8 +12,7 @@ function nowServing(line){
   if (line === 0); {
     return "The line is currently empty."
     }
-  else {
+  else 
     return (`Currently serving ${line}.`)
-  }
   }
 }
