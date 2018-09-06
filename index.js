@@ -22,7 +22,7 @@ function currentLine(line){
   }
 
   for (var i=0; i<line.length ;i+=1){
-    listLine.push(i+1+'.'+ line[i])
+    listLine.push( i+1+ '.'+ line[i])
   }
 return ('The line is currently:'+ (listLine.join()))
 }
