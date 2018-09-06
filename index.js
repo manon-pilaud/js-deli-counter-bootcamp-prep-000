@@ -1,5 +1,4 @@
 var line = [];
-var list_line[];
 function takeANumber(line, name){
   line.push(name);
   
@@ -20,6 +19,7 @@ function currentLine(line){
   if (line.length === 0){
     return 'The line is currently empty.'
   }
+  var list_line[];
   for (var i=0; i<line_length ;i+=1){
     list_line.push(i+1,'.',line[i])
   }
