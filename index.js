@@ -19,10 +19,10 @@ function currentLine(line){
   if (line.length === 0){
     return 'The line is currently empty.'
   }
-  var list_line[];
+  var listLine[];
   for (var i=0; i<line_length ;i+=1){
     list_line.push(i+1,'.',line[i])
   }
-return ('The line is currently:'+ (list_line.join()))
+return ('The line is currently:'+ (listLine.join()))
 }
 
