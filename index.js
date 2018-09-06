@@ -18,8 +18,10 @@ function takeANumber(line, name){
 function currentLine(line){
   if (line.length === 0){
     return 'The line is currently empty.'
-  list_line = []
-  for (var i=0; i<line_length ;)
   }
+  list_line = []
+  for (var i=0; i<line_length ;i+=1)
+  
+  
 }
 
