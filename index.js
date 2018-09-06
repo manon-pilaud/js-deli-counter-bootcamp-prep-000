@@ -20,7 +20,9 @@ function currentLine(line){
     return 'The line is currently empty.'
   }
   list_line = []
-  for (var i=0; i<line_length ;i+=1)
+  for (var i=0; i<line_length ;i+=1){
+    list_line.push()
+  }
   
   
 }
