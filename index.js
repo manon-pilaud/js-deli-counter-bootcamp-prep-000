@@ -15,5 +15,10 @@ function takeANumber(line, name){
 }
 }
 
-
+function currentLine(line){
+  while (true) {
+    if (line.length === 0) {
+    return "There is nobody waiting to be served!";
+  }
+}
 
