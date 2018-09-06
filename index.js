@@ -21,7 +21,7 @@ function currentLine(line){
   }
   list_line = []
   for (var i=0; i<line_length ;i+=1){
-    list_line.push()
+    list_line.push(i+1'.')
   }
   
   
