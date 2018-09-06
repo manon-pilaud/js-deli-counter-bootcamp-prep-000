@@ -20,8 +20,8 @@ function currentLine(line){
     return 'The line is currently empty.'
   }
   var listLine[];
-  for (var i=0; i<line_length ;i+=1){
-    list_line.push(i+1,'.',line[i])
+  for (var i=0; i<line.length ;i+=1){
+    listLine.push(i+1,'.',line[i])
   }
 return ('The line is currently:'+ (listLine.join()))
 }
