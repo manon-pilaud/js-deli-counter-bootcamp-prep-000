@@ -1,5 +1,5 @@
 var katzDelLine = [];
-function takeANumber (name, parseInt(currentLine)) {
+function takeANumber (name, currentLine) {
   
   return (`Welcome, ${name}. You are number ${currentLine} in line.`)
 }
