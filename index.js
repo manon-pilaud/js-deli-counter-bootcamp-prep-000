@@ -11,4 +11,7 @@ function nowServing(line){
   i +=1
   return (`Currently serving ${line}.`)
   }
+  else if line === 0 {
+    return 
+  }
 }
