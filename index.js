@@ -19,7 +19,7 @@ function currentLine(line){
   if (line.length === 0){
     return 'The line is currently empty.'
   list_line = []
-  for (list_line>1; list_line)
+  for (i=1; list_line)
   }
 }
 
