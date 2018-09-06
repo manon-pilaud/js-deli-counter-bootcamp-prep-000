@@ -8,6 +8,6 @@ function takeANumber(line, name){
 function nowServing(line){
   let i = 0
   while (line > i ){
-    
+  
   }
 }
